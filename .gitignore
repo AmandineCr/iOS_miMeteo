@@ -1,4 +1,6 @@
 miMeteo/.gitignore
 /miMeteo/.gitignore
 ./miMeteo/.gitignore
-
+.xcuserdata/
+.DS_Store
+xcworkspace/
