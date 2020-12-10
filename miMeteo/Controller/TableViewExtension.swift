@@ -26,6 +26,7 @@ extension MeteoController: UITableViewDelegate, UITableViewDataSource {
                 return cell
             }
         }
+        return UITableViewCell()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
