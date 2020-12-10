@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DBB94F02580C2F800433189 /* imageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB94EF2580C2F800433189 /* imageDownloader.swift */; };
-		8DBB94F42580C41C00433189 /* forcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB94F32580C41C00433189 /* forcast.swift */; };
-		8DBB94F82580C44500433189 /* extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB94F72580C44500433189 /* extention.swift */; };
+		8DBB94F02580C2F800433189 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB94EF2580C2F800433189 /* ImageDownloader.swift */; };
+		8DBB94F42580C41C00433189 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB94F32580C41C00433189 /* Forecast.swift */; };
+		8DBB94F82580C44500433189 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB94F72580C44500433189 /* Extention.swift */; };
 		E089A508DB544C1521BC34AA /* libPods-miMeteo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 637DF8D3B529EB19C9B7EF73 /* libPods-miMeteo.a */; };
+		EC1080C62581136100FDA901 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1080C52581136100FDA901 /* ForecastCell.swift */; };
+		EC1080C8258117B400FDA901 /* SingleDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1080C7258117B400FDA901 /* SingleDataCell.swift */; };
+		EC57696925818E7A004E9569 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57696825818E7A004E9569 /* TableViewExtension.swift */; };
+		EC7DD99B258220D4009C9519 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7DD99A258220D4009C9519 /* DateHelper.swift */; };
 		ECC7809E257EE8E100589C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7809D257EE8E100589C95 /* AppDelegate.swift */; };
 		ECC780A0257EE8E100589C95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7809F257EE8E100589C95 /* SceneDelegate.swift */; };
 		ECC780A5257EE8E100589C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC780A3257EE8E100589C95 /* Main.storyboard */; };
@@ -25,9 +29,13 @@
 		276AF1179208BDD5AF60D37F /* Pods-miMeteo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miMeteo.debug.xcconfig"; path = "Target Support Files/Pods-miMeteo/Pods-miMeteo.debug.xcconfig"; sourceTree = "<group>"; };
 		283D0AD10FFD25A98F90D020 /* Pods-miMeteo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miMeteo.release.xcconfig"; path = "Target Support Files/Pods-miMeteo/Pods-miMeteo.release.xcconfig"; sourceTree = "<group>"; };
 		637DF8D3B529EB19C9B7EF73 /* libPods-miMeteo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-miMeteo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DBB94EF2580C2F800433189 /* imageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageDownloader.swift; sourceTree = "<group>"; };
-		8DBB94F32580C41C00433189 /* forcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = forcast.swift; path = miMeteo/Controller/forcast.swift; sourceTree = SOURCE_ROOT; };
-		8DBB94F72580C44500433189 /* extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = extention.swift; path = miMeteo/Controller/extention.swift; sourceTree = SOURCE_ROOT; };
+		8DBB94EF2580C2F800433189 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		8DBB94F32580C41C00433189 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = miMeteo/Controller/Forecast.swift; sourceTree = SOURCE_ROOT; };
+		8DBB94F72580C44500433189 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extention.swift; path = miMeteo/Controller/Extention.swift; sourceTree = SOURCE_ROOT; };
+		EC1080C52581136100FDA901 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
+		EC1080C7258117B400FDA901 /* SingleDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDataCell.swift; sourceTree = "<group>"; };
+		EC57696825818E7A004E9569 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		EC7DD99A258220D4009C9519 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateHelper.swift; path = miMeteo/Controller/DateHelper.swift; sourceTree = SOURCE_ROOT; };
 		ECC7809A257EE8E100589C95 /* miMeteo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miMeteo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC7809D257EE8E100589C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC7809F257EE8E100589C95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,8 +114,9 @@
 		ECC780B1257EE8FC00589C95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8DBB94F32580C41C00433189 /* forcast.swift */,
-				8DBB94F72580C44500433189 /* extention.swift */,
+				8DBB94F32580C41C00433189 /* Forecast.swift */,
+				8DBB94F72580C44500433189 /* Extention.swift */,
+				EC7DD99A258220D4009C9519 /* DateHelper.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +124,8 @@
 		ECC780B2257EE90400589C95 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC1080C52581136100FDA901 /* ForecastCell.swift */,
+				EC1080C7258117B400FDA901 /* SingleDataCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,7 +135,8 @@
 			children = (
 				ECC780B4257EE97300589C95 /* MeteoController.swift */,
 				ECC780BA257EE9E000589C95 /* LocationExtension.swift */,
-				8DBB94EF2580C2F800433189 /* imageDownloader.swift */,
+				8DBB94EF2580C2F800433189 /* ImageDownloader.swift */,
+				EC57696825818E7A004E9569 /* TableViewExtension.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,14 +255,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DBB94F82580C44500433189 /* extention.swift in Sources */,
-				8DBB94F42580C41C00433189 /* forcast.swift in Sources */,
+				8DBB94F82580C44500433189 /* Extention.swift in Sources */,
+				EC1080C62581136100FDA901 /* ForecastCell.swift in Sources */,
+				8DBB94F42580C41C00433189 /* Forecast.swift in Sources */,
 				ECC7809E257EE8E100589C95 /* AppDelegate.swift in Sources */,
 				ECC780A0257EE8E100589C95 /* SceneDelegate.swift in Sources */,
-				8DBB94F02580C2F800433189 /* imageDownloader.swift in Sources */,
+				8DBB94F02580C2F800433189 /* ImageDownloader.swift in Sources */,
+				EC57696925818E7A004E9569 /* TableViewExtension.swift in Sources */,
 				ECC780BB257EE9E000589C95 /* LocationExtension.swift in Sources */,
 				ECC780B5257EE97300589C95 /* MeteoController.swift in Sources */,
+				EC7DD99B258220D4009C9519 /* DateHelper.swift in Sources */,
 				ECC780BD257EEB2900589C95 /* API.swift in Sources */,
+				EC1080C8258117B400FDA901 /* SingleDataCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

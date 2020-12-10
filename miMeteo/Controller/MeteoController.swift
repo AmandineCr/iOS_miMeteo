@@ -19,12 +19,15 @@ class MeteoController: UIViewController {
     @IBOutlet weak var currentWeatherDescription: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
-    
+    let forecastCell = "ForeCastCell"
+       
     var locationManager: CLLocationManager?
-    var forecast = [Forecast]()
+    var forecasts = [Forecast]()
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         CLLocationSetup()
+        tableViewSetup()
     }
     
     func weatherForecast (lat: Double, long: Double){
@@ -54,7 +57,7 @@ class MeteoController: UIViewController {
                                                         if let icon = currentTemp["icon"] as? String{
                                                             if let date = dictionnary["dt_txt"] as? String {
                                                                 let newForecast = Forecast(degrees: degrees, date: date, icon: icon, description: description)
-                                                                self.forecast.append(newForecast)
+                                                                self.forecasts.append(newForecast)
                                                             }
                                                         }
                                                     }
@@ -64,8 +67,8 @@ class MeteoController: UIViewController {
                                     }
                                 }
                             }
-                            //
                             self.currentValueSetup()
+                            self.tableView.reloadData()
                         }
                     }
                 }
@@ -73,11 +76,11 @@ class MeteoController: UIViewController {
         }
     }
     func currentValueSetup(){
-        if forecast.count > 0 {
-            let currentWeather = forecast[0]
+        if forecasts.count > 0 {
+            let currentWeather = forecasts[0]
             degreesLabel.text = currentWeather.degrees.convertIntToString()
             currentWeatherDescription.text = currentWeather.description
-            ImageDownLoader.getCurrentWeatherImg.currentWeatherImg( currentWeather.icon, imageView: currentWeatherIcon)
+            ImageDownloader.getCurrentWeatherImg.currentWeatherImg( currentWeather.icon, imageView: currentWeatherIcon)
         }
     }
 }

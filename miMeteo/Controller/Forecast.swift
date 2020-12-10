@@ -41,7 +41,8 @@ class Forecast {
         _date = date
         _icon = icon
         _description = description
-        _day = ""
+        _day = DateHelper.getDateHelper.weekDay(_date) ?? ""
+        
     }
 }
 
