@@ -26,7 +26,7 @@ class DateHelper {
         if let date = convertStringToDate(string) {
             let calendar = Calendar.current
             if calendar.isDateInToday(date) {
-                return "Aujourd'hui"
+                return " Aujourd'hui"
             } else if calendar.isDateInTomorrow(date) {
                 return "Demain"
             } else {

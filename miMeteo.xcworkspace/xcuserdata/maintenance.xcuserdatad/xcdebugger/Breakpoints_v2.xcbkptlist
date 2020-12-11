@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1DAD97CC-E63C-41A0-9680-6D93EFA6BD96"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAA5147F-7870-4463-A57B-045DEF1027F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "miMeteo/View/ForecastCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ForecastCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BAA5147F-7870-4463-A57B-045DEF1027F2 - fb4fbee6456f09e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "miMeteo.ForecastCell.forecasts.getter : Swift.Array&lt;miMeteo.Forecast&gt;"
+                  moduleName = "miMeteo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maintenance/Documents/iOS_miMeteo/miMeteo/View/ForecastCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "BAA5147F-7870-4463-A57B-045DEF1027F2 - 7211b24e84dc5772"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "miMeteo.ForecastCell.forecasts.setter : Swift.Array&lt;miMeteo.Forecast&gt;"
+                  moduleName = "miMeteo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maintenance/Documents/iOS_miMeteo/miMeteo/View/ForecastCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "BAA5147F-7870-4463-A57B-045DEF1027F2 - 3a419537fa8cca72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "miMeteo.ForecastCell.forecasts.modify : Swift.Array&lt;miMeteo.Forecast&gt;"
+                  moduleName = "miMeteo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maintenance/Documents/iOS_miMeteo/miMeteo/View/ForecastCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "BAA5147F-7870-4463-A57B-045DEF1027F2 - de9747c328ca603d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "miMeteo.ForecastCell.forecasts.modify : Swift.Array&lt;miMeteo.Forecast&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "miMeteo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maintenance/Documents/iOS_miMeteo/miMeteo/View/ForecastCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "BAA5147F-7870-4463-A57B-045DEF1027F2 - dcd2ddc7025bd188"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "miMeteo.ForecastCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; miMeteo.ForecastCell"
+                  moduleName = "miMeteo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maintenance/Documents/iOS_miMeteo/miMeteo/View/ForecastCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "311">
+               </Location>
+               <Location
+                  uuid = "BAA5147F-7870-4463-A57B-045DEF1027F2 - af52abf40b1f7e94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "miMeteo.ForecastCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;miMeteo.ForecastCell&gt;"
+                  moduleName = "miMeteo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maintenance/Documents/iOS_miMeteo/miMeteo/View/ForecastCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "246">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,8 +1,8 @@
 //
-//  tableViewExtension.swift
+//  TableViewExtension.swift
 //  miMeteo
 //
-//  Created by etudiant on 10/12/2020.
+//  Created by Maintenance on 11/12/2020.
 //  Copyright © 2020 etudiant. All rights reserved.
 //
 
@@ -16,7 +16,7 @@ extension MeteoController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return daysForecast.count+1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -24,6 +24,12 @@ extension MeteoController: UITableViewDelegate, UITableViewDataSource {
             if let cell = tableView.dequeueReusableCell(withIdentifier: forecastCell) as? ForecastCell {
                 cell.setup(forecasts: forecasts)
                 return cell
+            }else{
+                let forecast = daysForecast[indexPath.row - 1]
+                if let cell = tableView.dequeueReusableCell(withIdentifier: "DayCell") as? DayCell {
+                    cell.putInPlace(forecast: forecast)
+                    return cell
+                }
             }
         }
         return UITableViewCell()

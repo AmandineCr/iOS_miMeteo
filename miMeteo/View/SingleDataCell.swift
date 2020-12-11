@@ -18,6 +18,8 @@ class SingleDataCell: UICollectionViewCell {
     var forecast: Forecast!
     
     func setup(forecast: Forecast) {
+        
+        layer.cornerRadius = 30
         self.forecast = forecast
         ImageDownloader.getCurrentWeatherImg.currentWeatherImg(self.forecast.icon, imageView: icon)
         

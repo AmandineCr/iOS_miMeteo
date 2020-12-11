@@ -11,6 +11,8 @@ import UIKit
 class ForecastCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     @IBOutlet weak var collectionView: UICollectionView!
+ 
+    
     
     var forecasts = [Forecast]()
     let cellID = "SingleDataCell"
